@@ -1,0 +1,103 @@
+* {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+}
+
+.navBar {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+}
+
+.navBar h1 {
+    text-indent: 10px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.yourInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 250px;
+    width: 50px;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+
+.yourInfo img {
+    width: 50%;
+    margin: 20px 0px 10px 0px;
+    height: auto;
+    align-self: center;
+}
+
+.yourInfo h3 {
+    margin-bottom: 40px;
+}
+
+.column {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.feed {
+    height: 100px;
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+h2 {
+    flex: 3;
+}
+
+.row p {
+    flex: 2;
+}
+
+.filler {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#like {
+    height: 30px;
+    border: 2px solid black;
+    background-color: gold;
+    box-shadow: 3px 3px 0px black;
+    flex: 1;
+}
